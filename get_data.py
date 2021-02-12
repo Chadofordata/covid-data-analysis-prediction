@@ -26,10 +26,5 @@ print(df_subregions[['date','id','today_confirmed','today_new_confirmed','today_
 # to see what is writing into csv
 df_subregions.to_csv(path_or_buf='data_export_90days.csv', index=False) #creating csv file
 
-#Next actions;
-    #1- making the number of days as an input
-    #2-making the region as an input ( Y/N to specify is needed)
-    #3- Plotting number of cases by region
-    #4-Prediction of number of cases for region
 
 
